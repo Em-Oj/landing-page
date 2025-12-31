@@ -1,0 +1,127 @@
+* {
+    font-family: "Roboto", Helvetica;
+}
+.main1, .footer {
+    background: #1F2937;
+    color: white;
+}
+.header {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 13px;
+}
+ul a {
+    color: gray;
+    text-decoration: none;
+}
+.signup a, .main4right a {
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    margin-right: auto;
+}
+.main1sub {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main1subsub {
+    max-width: 350px;
+    margin-right: auto;
+}
+.main1txt1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.main1txt2 {
+    margin-bottom: 8px;
+}
+.image-placeholder {
+    min-width: 500px;
+    height: 280px;
+    background: #989595;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.signup {
+    background: #3e9bff;
+    width: max-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.main2header {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.main2partitioncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+.main2partition {
+    max-width: 184px;
+    text-align: center;
+}
+.main2box {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #3e9bff;
+    border-radius: 5%;
+    margin-bottom: 4px;
+}
+.main3 * {
+    background: #E5E7EB;
+    font-size: 34px;
+    font-weight: 200;
+    font-family: Georgia,serif;
+}
+.main3quote {
+    font-style: italic;
+    padding: 50px 240px 0px;
+}
+.main3quoteauthor {
+    text-align: end;
+    padding: 0px 240px 50px;
+}
+.main4 {
+    margin: 50px;
+    padding: 28px;
+    border-radius: 5px;
+    background: #3e9bff;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.main4left {
+    margin-right: auto;
+}
+.itstime {
+    font-size: 28px;
+    font-weight: 250;
+}
+.main4right {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    height: 18px;
+}
+.footer {
+    padding: 25px;
+    text-align: center;
+}
